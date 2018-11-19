@@ -350,7 +350,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var UserService = (function () {
     function UserService(_http) {
         this._http = _http;
-        this.baseUrl = 'http://103.108.140.153:8084/api';
+        this.baseUrl = 'http://localhost:8084/api';
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/json' });
         this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: this.headers });
         this.user = new __WEBPACK_IMPORTED_MODULE_6__user__["a" /* User */]();
